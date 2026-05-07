@@ -8,3 +8,17 @@ function filterEvenNumbers(numbers: number[]): number[] {
 function reverseString(text: string): string {
   return text.split("").reverse().join("");
 }
+
+// solution of problem3
+type StringOrNumber = string | number;
+
+function checkType(value: StringOrNumber): string {
+  if (typeof value === "string") {
+    return "String";
+  } else {
+    return "Number";
+  }
+}
+
+
+// solution of problem4
